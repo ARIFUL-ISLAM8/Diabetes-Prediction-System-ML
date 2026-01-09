@@ -1,0 +1,38 @@
+# 🩺 Diabetes Prediction - Proof of Concept (POC)
+
+A machine learning-based predictive model for diabetes detection using patient health metrics. This project implements multiple classification algorithms to predict diabetes and evaluates their performance.
+
+## 📌 Overview
+This project is a Proof of Concept (POC) for predicting diabetes based on patient health data. It includes:
+- Data preprocessing & feature engineering (StandardScaler & Label Encoding)
+- Exploratory Data Analysis (EDA) using Seaborn and Matplotlib
+- Implementation of 5+ ML models (Logistic Regression, KNN, Random Forest, etc.)
+- Performance metrics (Accuracy, Precision, Recall, F1-Score)
+- Hyperparameter tuning via GridSearchCV
+
+## 📊 Dataset
+- **Source:** Diabetes Prediction Dataset
+- **Size:** 100,000 samples, 9 features
+- **Target Variable:** `diabetes` (0 = No Diabetes, 1 = Diabetes)
+- **Features:** Gender, Age, Hypertension, Heart Disease, Smoking History, BMI, HbA1c Level, and Blood Glucose Level.
+
+🏗️ Project Structure
+
+diabetes-prediction-poc/
+│
+├── Diabetes_Prediction_POC.ipynb      # Main Jupyter notebook
+├── diabetes_prediction_dataset.csv    # Dataset file
+├── LICENSE                            # MIT License (2026)
+└── README.md                          # Project documentation
+
+📊 Results (Model Performance)
+Model                  Accuracy
+Random Forest          ~97.0%
+K-Nearest Neighbors    ~96.2%
+Support Vector Machine ~96.1%
+Logistic Regression    ~95.9%
+
+
+👥 Author
+ARIFUL ISLAM
+
